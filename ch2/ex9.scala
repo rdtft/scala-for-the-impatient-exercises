@@ -4,9 +4,7 @@ object ex9 {
   }
 
   def product(s: String): Int = {
-    if (s.size > 0)
-      s.head * product(s.tail)
-    else
-      1
+    if (s.size > 0) s.head * product(s.tail)
+    else 1
   }
 }
